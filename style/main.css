@@ -198,7 +198,6 @@ header nav.d-flex {
 
 .sec-4 {
     padding: 79px 0;
-    margin-bottom: 89px;
     background: #F5F5F5;
 }
 
@@ -292,10 +291,6 @@ header nav.d-flex {
 }
 
 
-.sec5-card {
-
-}
-
 .sec-5 h3 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -327,13 +322,13 @@ header nav.d-flex {
 }
 
 .svg-symbol1 {
-    padding: 69px 0 0;
+    padding-top: 69px;
     text-align: center;
 }
 
 .line5 {
     height: 215px;
-    margin: 67px 0 98px;
+    margin: 67px auto 98px;
     width: 2px;
     background: rgba(0, 0, 0, 0.09)
 }
@@ -342,10 +337,11 @@ header nav.d-flex {
     font-family: 'Vollkorn', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 33px;
-    line-height: 26px;
+    font-size: 26px;
+    line-height: 36px;
     text-align: center;
     color: #333333;
+
 
 }
 
@@ -359,9 +355,22 @@ header nav.d-flex {
     color: #ABABAB;
 }
 
-.frame {
+.frame1 {
     max-width: 446px;
-    justify-content: center;
+    max-height: 215px;
+    text-align: center;
+    padding: 67px 52px 98px;
+}
+
+.frame2 {
+    max-width: 446px;
+    max-height: 215px;
+    text-align: center;
+    padding: 67px 70px 98px;
+}
+
+.sec-6 img {
+    margin: 24px 0 10px;
 }
 
 
@@ -369,4 +378,155 @@ header nav.d-flex {
     display: flex;
     justify-content: center;
 
+}
+
+.sec-7 {
+    width: 100%;
+    max-height: 517px;
+    background-image: url("../image./background.png");
+
+
+}
+
+.sec-7 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    color: #333333;
+    padding-top: 79px;
+
+
+}
+.sec-7 h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+
+}
+
+.sec-7 h4 {
+
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #212121;
+
+}
+
+.d-flex cards-wrapper sec-7 {
+    max-width: 960px;
+    max-height: 260px;
+    width: 100%;
+    margin: 43px 240px 69px;
+    justify-content: center;
+
+}
+
+.one-png {
+    max-height: 238px;
+    max-width: 320px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.two-png {
+    max-height: 260px;
+    max-width: 320px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.three-png {
+    max-height: 238px;
+    max-width: 320px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.water{
+    margin-bottom: 26px;
+}
+
+.mailbig{
+    margin-bottom: 34px;
+}
+
+.heard{
+    margin-bottom: 28px;
+}
+
+.svg-heard {
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+
+}
+.line6 {
+    height: 2px;
+    margin: 28px 430px 43px;
+    width: 80px;
+    background: rgba(0, 0, 0, 0.09);
+}
+
+
+footer {
+    background: #000000;
+    padding: 69px 0 75px;
+}
+
+footer .container {
+    max-width: 564px;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    font-size: 17px;
+    line-height: 22px;
+    font-style: italic;
+    color: #FFFFFF;
+    padding: 18px 30px 17px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #FFFFFF;
+}
+
+input:nth-of-type(odd) {
+    background: rgba(255, 255, 255, 0.18);
+}
+
+textarea {
+    resize: none;
+    height: 127px;
+}
+
+form .btn-secondary {
+    margin-top: 22px;
 }
